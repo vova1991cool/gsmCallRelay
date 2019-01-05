@@ -21,18 +21,18 @@
     <ClInclude Include="__vm\.gsmCallRelay.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="libs\EEPROMPlugin.h">
+    <ClInclude Include="libs\SerialGSM.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="libs\SerialGSM.h">
+    <ClInclude Include="RelayToggler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="libs\EEPROMPlugin.cpp">
+    <ClCompile Include="libs\SerialGSM.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="libs\SerialGSM.cpp">
+    <ClCompile Include="RelayToggler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

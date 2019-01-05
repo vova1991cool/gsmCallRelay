@@ -6,6 +6,9 @@
 #include "SerialGSM.h"
 
 void SerialGSM::FwdSMS2Serial(){
+  Serial.println(F("AT+CLIP=1"));
+  this->println(F("AT+CLIP=1"));
+  delay(200);
   Serial.println(F("AT+CMGF=1")); // set SMS mode to text
   this->println(F("AT+CMGF=1")); // set SMS mode to text
   delay(200);
